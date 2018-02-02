@@ -1,0 +1,27 @@
+body {
+    background-image: url("inscrit2.jpg");
+}
+
+#conteneur {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    bottom: 0;
+    position: absolute;
+}
+
+#conteneur ul li {
+    list-style-type: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,101 @@
+h1 {color:white;
+	text-shadow : 2px 2px 4px black;
+    padding-left: 30px !important;
+
+}
+body {/*{background-image:url("circuit.jpg")}*/
+
+}
+header{
+	
+	background-image:url("bleu.jpg");
+		
+	text-align-last: justify;
+	
+}
+
+.imgup {
+	width:10% !important;
+	margin:0px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+#recherche {
+    padding-top: 30px;
+}
+.menu{
+//width:100px;
+	height:45px;
+	text-align:center;
+	display:inline-block;
+	width: calc(25% - 3px);
+	position: relative;
+	vertical-align: top;
+}
+.menu a{
+	display:block;
+	height:30px;
+	padding-top:15px;
+}
+.menu a:link, .menu a:visited{
+	text-decoration:none;
+	color: #000000;
+	font-family:verdana, sans-serif;
+	font-size:12px;
+	background:#abc url(fond.jpg) 0 -45px;
+}
+.menu#activ a:link, .menu#activ a:visited{
+	background:#abc url(fond.jpg);
+	color: #000000;
+}
+.menu a:hover, .menu a:active, .menu a:focus{
+	background:#abc url(fond.jpg) 0 -90px;
+	color: #6BDAFF;
+}
+.menu#activ a:hover, .menu #activ a:active, .menu#activ a:focus{
+	background:#abc url(fond.jpg);
+	color: #6BDAFF;
+}
+#menu{
+	margin:0 auto;
+	list-style-type: none;
+	background-color: rgb(170, 187, 204);
+}
+
+#menu li ul {
+	position: absolute;
+	width: 100%;
+	max-height: 0;
+	overflow: hidden;
+//visibility: hidden;
+}
+
+#menu li:hover ul {
+	max-height: 280px;
+	transition: max-height .5s cubic-bezier(0.85,-0.04, 1, 1);
+}
+#menu ul li{
+
+	list-style-type: none;
+}
+
+
+
+
+
+
+
+
+	
+footer {
+	background-image:url("bleu.jpg");
+	
+		
+}
+h4{
+	font-size: 18px;
+
+	
+
+}
