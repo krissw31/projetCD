@@ -1,18 +1,27 @@
 body {
-    background-image: url("inscrit2.jpg");
+    /* background-image: url("inscrit2.jpg");*/
+  background-color: #e3d9ed;
+}
+h1 {
+    font-family: Impact,fantasy;
 }
 
 #conteneur {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    bottom: 0;
-    position: absolute;
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-around;
+bottom: 0;
+position: absolute;
 }
 
 #conteneur ul li {
-    list-style-type: none;
+list-style-type: none;
 
+}
+nav {
+  padding-top: 60px;
+  background-color: #e3f2fd;
+   padding-bottom: 2px;
 }
 
 
